@@ -1,0 +1,279 @@
+<html>
+    <head>
+<title>About Us</title>
+          <link rel="stylesheet" href="prg2.css">
+        <link rel="stylesheet" href="page3.css">
+        <link rel="stylesheet" href="register1.css">
+        <link rel="shortcut icon" type="image/png" href="updated.png">
+        <script type="text/javascript" src=registration.js></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+     
+  
+  
+    
+ 
+    
+    <body>
+        <script>
+     // var a= prompt("What is your name?")
+    //alert("Hello "+a)
+    
+            function myfunc()
+            {
+                var age=document.getElementById("age").value;
+               if(age>=18)
+                   {
+                       alert("You are eligible to do any type of farming")
+                   }
+                else if(age<18)  {
+                    alert("You are eligible to do roof top gardening or any small scale gardening")
+                }
+                else
+                    alert("Please enter your age")
+            }
+        
+            function myfunc1()
+            {
+                var name=document.getElementById("na").value;
+                var age=document.getElementById("age").value;
+                var city=document.getElementById("ci").value;
+                var type=document.getElementById("ty").value;
+                var season=document.getElementById("season").value;
+                
+                document.getElementById("det").innerHTML=("Details")
+                document.getElementById("name").innerHTML=("Name :")
+                document.getElementById("city").innerHTML=("City :")
+                document.getElementById("ag").innerHTML=("Age :")
+                document.getElementById("type").innerHTML=("Type :")
+                document.getElementById("sea").innerHTML=("You can grow :")
+                
+               
+                document.getElementById("name1").innerHTML=name
+                document.getElementById("city1").innerHTML=city
+                document.getElementById("ag1").innerHTML=age
+                document.getElementById("type1").innerHTML=type
+                
+                
+                
+                
+                switch(season)
+                    {
+                        case "summer": document.getElementById("sea1").innerHTML=("You can grow tomato </br> and brinjal")
+                            break;
+                           case "winter": document.getElementById("sea1").innerHTML=("You can grow spinach </br> and carrot")
+                            break;
+                             case "rainy": document.getElementById("sea1").innerHTML=("You can grow cucumber </br> beans")
+                            break;
+                             case "spring": document.getElementById("sea1").innerHTML=("You can grow wheat</br> barley")
+                            break;
+                        default: alert("Invalid entry");
+                                         document.getElementById("sea1").innerHTML=("Invalid entry")
+                            break;
+                    }
+            }
+            
+            
+             function myfunc3()
+        {
+            
+        var inp=document.getElementById("search2").value
+        var users= ["sathya", "sathvik", "jawahar", "rutvik"];
+            var i = 0;
+            var found=0;
+          while(i<users.length)
+                {
+                    if(inp==users[i])
+                        {
+                            found=1;
+                            break;
+                        }
+                    i++;
+                }
+            if(found==1)
+                {
+                    alert("User details is present")
+                }
+            else
+                {
+                     alert("User details is not present")
+                }
+        }
+            var count=5;
+            function loc()
+            {
+                var timer=document.getElementById("timer");
+                if(count>0)
+                    {
+                        count--;
+                        timer.innerHTML="This page redirects in "+count+" seconds";
+                        setTimeout("count()",1000)
+                    }
+               else{
+                window.location.href='https://maps.google.co.in/maps?hl=en&tab=rl';}
+            }
+            
+            function bigImg(x) {
+  x.style.height = "60px";
+  x.style.width = "60px";
+}
+
+function normalImg(x) {
+  x.style.height = "50px";
+  x.style.width = "50px";
+}
+            
+   function setCookies() { 
+  
+            // Using cookie property 
+            cookieVal = document.cookieFrm.nameVal.value + ""; 
+            document.cookie = "name = " + cookieVal 
+        } 
+  
+        // Function to reading cookies 
+        function showCookies() { 
+  
+            // Display the cookie value when pressing 
+            // the "showCookies" button  
+            if(cookieVal!="")
+                {
+            document.getElementById("ShowC").innerHTML = 
+              ("Cookie value = " + cookieVal) 
+                }
+            else{
+                alert("Please  enter your name")
+}
+        } 
+          
+            
+        </script>
+        
+         <div class="container">
+  <!--<img class="image" src="rect4.jpg" alt="Snow" style="width:100%;">-->
+             <img class="image" src="Capture.PNG" alt="dfghj" style="width: 12%; height: 15%" >
+              
+<!--  <div class="centered">Ease Trading</div>-->
+      </div>
+   
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="svg1" viewBox="0 0 16 16">
+  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
+</svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="svg2" viewBox="0 0 16 16">
+  <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+</svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="svg3" viewBox="0 0 16 16">
+  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+</svg>
+    <p class="p1">
+        Bangalore, Karnataka<br>
+        India
+        </p>
+        <p class="p2">
+        E-mail: <a href="http://www.gmail.com" target="_blank">agroeaze@gmail.com</a><br>
+        ph no: 8660799005
+        </p>
+        <p class="p3">
+        Ask Experts
+        </p>
+    
+   
+        
+   
+    <div class="menu">
+        <ul>
+        <li class="active" ><a href="Page1.html">Home</a></li>
+        <li><a href="#">Content</a>
+            <div class="sub-menu-content">
+            <ul>
+                <li><a href="Cereals1.html">Cereals</a></li>
+                <li><a href="groundnut2.css">GroundNuts</a></li>
+                
+                </ul>
+                </div>
+            </li>
+            
+        <li><a href="Page3.html">About Us</a></li>
+
+        
+        
+        </ul>
+    
+    
+    </div>
+         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" width="10%" height="10%" viewBox="0 0 50 50" style="null"  class="fb" >    <path d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z"></path></svg>
+       
+        <svg class="twit" height ="10%" width="10%" viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
+  <path d="
+    M 630, 425
+    A 195, 195 0 0 1 331, 600
+    A 142, 142 0 0 0 428, 570
+    A  70,  70 0 0 1 370, 523
+    A  70,  70 0 0 0 401, 521
+    A  70,  70 0 0 1 344, 455
+    A  70,  70 0 0 0 372, 460
+    A  70,  70 0 0 1 354, 370
+    A 195, 195 0 0 0 495, 442
+    A  67,  67 0 0 1 611, 380
+    A 117, 117 0 0 0 654, 363
+    A  65,  65 0 0 1 623, 401
+    A 117, 117 0 0 0 662, 390
+    A  65,  65 0 0 1 630, 425
+    Z"
+    style="fill:black"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="10%" height="10%" class="insta" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg>
+        
+       <form action="#" name="cookieFrm">
+        <h1 style="text-align: center"> Registration</h1>
+        <h2 style="position: absolute;left: 20%;top: 35%">Name : </h2>
+        <h2 style="position: absolute;left: 20%;top: 45%">Age : </h2>
+        <h2 style="position: absolute;left: 20%;top: 55%">City : </h2>
+        <h2 style="position: absolute;left: 20%;top: 65%">Type : </h2>
+        <h2 style="position: absolute;left: 20%;top: 75%">Season : </h2>
+           
+        <input type="text" id="na" name="nameVal" placeholder="Enter your name"  class="name1" required>
+        <input type="text" id="age" placeholder="Enter your age"  class="name2" required>
+        <input type="text"id="ci" placeholder="Enter City"  class="name3" required>
+        <input type="text" id="ty" placeholder="Type..."  class="name4" required>
+         <input type="text" id="season" placeholder="Enter the season in which you want to farm"  class="name5" required>
+         <div class="topnav">
+
+  <input type="text" placeholder="Search..">
+</div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+</svg>
+
+         <button type="submit" onclick="myfunc2()" style="position: absolute;top: 90%;right: 70%;height: 5%;width: 10%;font-size: 20px;font-weight: 600;color: white;background: #eb5c52;cursor: pointer;border-radius: 6%;">Reset</button>
+         <input type="button" value="Set" onclick="setCookies()" style="position: absolute;top: 36%;left: 45%;width: 5%"> 
+<input type="button" value="Check" onclick="showCookies()"style="position: absolute;top: 40%;left: 45%;width: 5%">  
+        <span id="ShowC" ></span> 
+        </form>
+      <button type="submit" onclick="myfunc()" style="position: absolute;top: 47%;right: 50%;height: 5%;width: 5%;cursor: pointer">Check</button>
+        
+        <button type="submit" onclick="myfunc1()" style="position: absolute;top: 90%;right: 55%;height: 5%;width: 10%;font-size: 20px;font-weight: 600;color: green;background: lightgreen;cursor: pointer;border-radius: 6%;">Submit</button>
+        <div id="det"></div>
+        <div id="name"></div>
+        <div id="city"></div>
+         <div id="ag"></div>
+        <div id="type"></div>
+        <div id="sea"></div>
+        <div id="res"></div>
+       <div id="name1"></div>
+        <div id="city1"></div>
+         <div id="ag1"></div>
+        <div id="type1"></div>
+        <div id="sea1"></div>
+    
+         <div class="topnav">
+             <a  target="_blank" onclick=loc()  ><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="maps.png" style="position: absolute;top: 56%;left: 45%;cursor: pointer"></a>
+
+  <input type="text" id="search2" placeholder="Search..">
+</div>
+      <button type="submit"onclick="myfunc3()" style="position: absolute;top: 26%;right: 22%;cursor: pointer;">Search</button>
+        <span id="timer"></span>
+      
+    </body>
+</html>
