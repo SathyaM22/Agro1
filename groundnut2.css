@@ -1,0 +1,297 @@
+<style>
+
+.border{
+    position: absolute;
+    border-left: 5px black;
+    height: 500px;
+    left: 50%;
+    margin-left: 3px;
+    
+    
+}
+
+body {
+  background-color: #f6f5f5;
+  
+    
+   
+}
+
+.card {
+  width: 227px;
+  height: 354px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  -webkit-box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.card2 {
+  width: 227px;
+  height: 354px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  -webkit-box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.card3 {
+  width: 227px;
+  height: 354px;
+  background-color: #ffffff;
+  position: relative;;
+  left: 60%;
+  top: 2%;
+  -webkit-box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.card4 {
+  width: 227px;
+  height: 354px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 80%;
+  top: 30%;
+  -webkit-box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 50px -20px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.card .card-image img {
+  background-size: cover;
+  width: 188px;
+  height: 171px;
+  border-radius: 10px;
+  margin: 18px;
+}
+.card2 .card-image img {
+  background-size: cover;
+  width: 188px;
+  height: 171px;
+  border-radius: 10px;
+  margin: 18px;
+}
+.card3 .card-image img {
+  background-size: cover;
+  width: 188px;
+  height: 171px;
+  border-radius: 10px;
+  margin: 18px;
+}
+
+.card4 .card-image img {
+  background-size: cover;
+  width: 188px;
+  height: 171px;
+  border-radius: 10px;
+  margin: 18px;
+}
+
+.card .card-title {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px 0px 0px 27px;
+    
+  color: #000000;
+}
+.card2 .card-title {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px 0px 0px 27px;
+  color: #000000;
+}
+.card3 .card-title {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px 0px 0px 27px;
+  color: #000000;
+}
+
+.card4 .card-title {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px 0px 0px 27px;
+  color: #000000;
+}
+
+.card .category {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 25px;
+  color: #000000;
+  margin-left: 50px;
+}
+.card3 .category {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 25px;
+  color: #000000;
+  margin-left: 50px;
+}
+.card2 .category {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 25px;
+  color: #000000;
+  margin-left: 50px;
+}
+.card4 .category {
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 25px;
+  color: #000000;
+  margin-left: 50px;
+}
+
+.card .card-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px;
+}
+
+.card2 .card-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px;
+}
+.card3 .card-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px;
+}
+.card4 .card-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px;
+}
+.card .card-button {
+  width: 137px;
+  height: 11px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  counter-increment: none;
+  color: green;
+  padding: 12px 0px 18px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+    text-decoration: none;
+  display: flex;
+  margin: 14px;
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+.card2 .card-button {
+  width: 137px;
+  height: 11px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  counter-increment: none;
+  color: green;
+  padding: 12px 0px 18px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+    text-decoration: none;
+  display: flex;
+  margin: 14px;
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.card3 .card-button {
+  width: 137px;
+  height: 11px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  counter-increment: none;
+  color: green;
+  padding: 12px 0px 18px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+    text-decoration: none;
+  display: flex;
+  margin: 14px;
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+.card4 .card-button {
+  width: 137px;
+  height: 11px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  counter-increment: none;
+  color: green;
+  padding: 12px 0px 18px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+    text-decoration: none;
+  display: flex;
+  margin: 14px;
+  font-family: Balsamiq Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+.card .card-button:hover {
+  background-color: green;
+
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/*# sourceMappingURL=style.css.map */
+.card2 .card-button:hover {
+  background-color: green;
+
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.card3 .card-button:hover {
+  background-color: green;
+
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.card4 .card-button:hover {
+  background-color: green;
+
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+</style>
